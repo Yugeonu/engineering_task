@@ -1,2 +1,1 @@
 print('yugeonu!')
-print('sangyoon')
