@@ -1,1 +1,2 @@
-print('sangyoon!')
+print('yugeonu!')
+print('sangyoon')
