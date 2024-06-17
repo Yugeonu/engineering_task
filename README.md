@@ -2,7 +2,7 @@
 #
 # example
 # ---------------
-# git branch -b yugeonu
+# git checkout -b yugeonu
 # inside code : print("yugeonu")
 # git add -A
 # git commit -m "geonu version"
