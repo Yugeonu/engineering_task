@@ -1,1 +1,2 @@
 print('yugeonu')
+print('minha')
