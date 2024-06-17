@@ -1,1 +1,1 @@
-print('yugeonu!')
+print('yugeonu')
