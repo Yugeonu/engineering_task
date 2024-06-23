@@ -1,3 +1,3 @@
 print('yugeonu')
 print('minha')
-print('jinyoung')
+print('진영')
