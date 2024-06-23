@@ -1,4 +1,4 @@
 print('dbrjsdn')
 print('minha')
-print('jinyoung')
+print('진영')
 print('dltkddbs')
