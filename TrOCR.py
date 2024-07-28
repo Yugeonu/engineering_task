@@ -48,7 +48,6 @@ try:
     
     for i in range(image_len): # 사진 경로가 바뀌면 수정해야함
         image_list[i] = 'CRAFT/'+image_list[i]
-        
 except:
     detected_coordinates, image_list = False, False
     
