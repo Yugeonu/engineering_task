@@ -9,4 +9,4 @@ print("step1 compledted")
 subprocess.run(['git', 'checkout', 'minha'], check=True)
 subprocess.run(['python', r"C:\LLM_CONTEST2024\engineering_task\image_ssim.py"], check=True)
 
-print("Finished processing")
+# print("Finished processing")
