@@ -6,8 +6,8 @@ import numpy as np
 from skimage.metrics import structural_similarity as ssim
 
 # 동영상 파일 경로
-video_path = r"C:\Users\anjin\Downloads\C1W1L04 Supervised Learning 2.mp4"
-output_folder = r"C:\Users\anjin\OneDrive\바탕 화면\LLM_CONTEST2024\engineering_task\slide_cloud"
+video_path = r"C:\LLM_CONTEST2024\engineering_task\C1W1L04 Supervised Learning 2.mp4"
+output_folder = r"C:\LLM_CONTEST2024\engineering_task\slide_cloud"
 
 # 폴더가 없으면 생성
 if not os.path.exists(output_folder):
