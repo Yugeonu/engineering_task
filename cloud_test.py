@@ -7,7 +7,8 @@ print("step1 compledted")
 
 # `minha` 브랜치에서 image_ssim.py 실행
 try:
-    subprocess.run(['python', 'C:\\LLM_CONTEST2024\\engineering_task\\image_ssim.py'], check=True)
+    subprocess.run(['git', 'checkout', 'minha'], check=True)
+    subprocess.run(['python', 'image_ssim.py'], check=True)
 except subprocess.CalledProcessError as e:
     print(f"Error: {e}")
 
