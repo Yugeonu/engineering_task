@@ -156,4 +156,4 @@ def capture_frames(video_path, output_dir, capture_interval_sec=2, ssim_threshol
 video_path = r"/home/work/INC_LAB/JY/OCR/[PyTorch] Lab-03 Deeper Look at GD - 복사본.mp4"
 output_dir = r"/home/work/INC_LAB/JY/OCR/OCR_TEST_con"
 #
-# capture_frames(video_path, output_dir, capture_interval_sec=2, ssim_threshold=0.9)
+capture_frames(video_path, output_dir, capture_interval_sec=2, ssim_threshold=0.9)
