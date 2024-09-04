@@ -1,7 +1,7 @@
 import subprocess
 
 # `jinyoung` 브랜치에서 frame_capture.py 실행
-file_path = "C:\\LLM_CONTEST2024\\engineering_task\\frame_capture.py"
+file_path = "C:\\Users\\anjin\\OneDrive\\바탕 화면\\LLM_CONTEST2024\\engineering_task\\frame_capture.py"
 subprocess.run(['git', 'checkout', 'jinyoung'], check=True)
 subprocess.run(['python', file_path], check=True)
 print("Step 1 completed")
@@ -29,7 +29,7 @@ else:
 # `minha` 브랜치에서 image_ssim.py 실행
 try:
     subprocess.run(['git', 'checkout', 'minha'], check=True)
-    subprocess.run(['python', 'image_ssim.py'], check=True)
+    subprocess.run(['python', "C:\\Users\\anjin\\OneDrive\\바탕 화면\\LLM_CONTEST2024\\engineering_task\\image_ssim.py"], check=True)
     print("Step 2 completed")
 except subprocess.CalledProcessError as e:
     print(f"Error: {e}")
