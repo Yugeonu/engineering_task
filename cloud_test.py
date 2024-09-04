@@ -5,11 +5,16 @@ subprocess.run(['git', 'checkout', 'jinyoung'], check=True)
 subprocess.run(['python', 'C:\\LLM_CONTEST2024\\engineering_task\\frame_capture.py'], check=True)
 print("Step 1 completed")
 
-# Git에 변경 사항 커밋 및 푸시
-subprocess.run(['git', 'add', '.'], check=True)
-subprocess.run(['git', 'commit', '-m', 'Completed step 1: frame_capture.py execution'], check=True)
-subprocess.run(['git', 'push'], check=True)
-print("Changes committed and pushed for step 1")
+# 변경 사항이 있는지 확인
+status_result = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True)
+if status_result.stdout.strip():
+    # 변경 사항이 있으면 커밋하고 푸시
+    subprocess.run(['git', 'add', '.'], check=True)
+    subprocess.run(['git', 'commit', '-m', 'Completed step 1: frame_capture.py execution'], check=True)
+    subprocess.run(['git', 'push'], check=True)
+    print("Changes committed and pushed for step 1")
+else:
+    print("No changes to commit")
 
 # `minha` 브랜치에서 image_ssim.py 실행
 try:
