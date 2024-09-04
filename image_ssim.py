@@ -4,8 +4,8 @@ from skimage.metrics import structural_similarity as ssim
 import numpy as np
 
 # 이미지 폴더 경로 및 결과 파일 경로
-image_folder = r"C:\LLM_CONTEST2024\engineering_task\slide_cloud"
-output_file = r"C:\LLM_CONTEST2024\engineering_task\slide_cloud_output"
+image_folder = "C:\\LLM_CONTEST2024\\engineering_task\\slide_cloud"
+output_file = "C:\\LLM_CONTEST2024\\engineering_task\\slide_cloud_output"
 
 # 이미지 파일 목록 가져오기
 image_files = [f for f in os.listdir(image_folder) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
